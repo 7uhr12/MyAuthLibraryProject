@@ -1,7 +1,6 @@
 <?php
-require_once '../config.php';
-require_once '../auth/src/User.php';
-require_once '../auth/src/Auth.php';
+require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../config.php';
 
 use MyAuthLib\User;
 
@@ -20,7 +19,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-
 <form method="post">
     <input type="email" name="email" placeholder="Email" required>
     <input type="password" name="password" placeholder="Passwort" required>
