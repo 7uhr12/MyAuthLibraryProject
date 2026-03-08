@@ -1,0 +1,14 @@
+{
+    "name": "7uhr12/myauthlib",
+    "description": "Wiederverwendbares PHP-Login-Modul mit MySQL/SQLite",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MyAuthLib\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
